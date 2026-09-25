@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int var = 10;
+    int* ptr = &var;
+    cout <<"value of var:"<<var<<endl;
+    cout << "address of var:"<<&var<<endl;
+    cout<<"Address of ptr :"<<ptr<<endl;
+    cout<<"Value of ptr :"<< *ptr;
+
+    return 0;
+}
