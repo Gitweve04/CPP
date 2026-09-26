@@ -1,0 +1,10 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    vector<int> v ={10,20,30,40};
+    cout<<"accessing elements using at():" << v.at(3)<<endl;
+    return 0;
+
+    //performs bound checking
+}
