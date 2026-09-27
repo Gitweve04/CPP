@@ -1,0 +1,11 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    vector<int> v = {10,20,30,40};
+    cout << "original value at index 1 : " << v[1]<< endl;
+    // updating the elememt to another value
+    v[1] = 60;
+    cout << "New value at index 1 :" << v[1];
+    return 0;
+}
