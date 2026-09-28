@@ -1,1 +1,1 @@
-This folder contains basic vector programs using c++
+This folder contains basic programs using c++
