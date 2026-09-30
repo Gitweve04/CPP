@@ -1,0 +1,10 @@
+include <iostream>
+using namespace std;
+void greet() {
+    cout << "Hello, world!";
+}
+int main() {
+    void (*func_ptr)() = &greet;
+    func_ptr();
+    return 0;
+}
