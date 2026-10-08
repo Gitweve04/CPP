@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int var = 10;
+    
+    int* ptr1 = &var; 
+    
+    int** ptr2 = &ptr1; 
+
+    cout << "Value of var: " << var << endl;        
+    cout << "Using single pointer: " << *ptr1 << endl; 
+    cout << "Using double pointer: " << **ptr2 << endl; 
+
+    **ptr2 = 20;
+    cout << "New value of var: " << var << endl;    
+
+    return 0;
+}
